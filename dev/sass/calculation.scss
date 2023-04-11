@@ -1,0 +1,76 @@
+.calculation {
+    padding: $section-padding;
+    
+    .template-title-left {
+        max-width: 626px;
+    }
+}
+
+.form-container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    .img-box {
+        position: absolute;
+        bottom: -100px;
+        right: -56px;
+        width: Min(40vw,625px);
+       
+    }
+    
+}
+
+.form-calculation {
+    background-color: $second-backgr-color;
+    border-radius: 20px;
+    padding: 50px 50px 60px;
+    max-width: 626px;
+    .row {
+        margin: 0 -15px;
+    }
+    .col-md-6 {
+        padding: 0 15px;
+    }
+    .btn.btn-large {
+        min-width: 253px;
+    }
+
+    .button-group {
+        padding-top: 19px;
+    }
+}
+
+.file-name {
+    margin-bottom: 12px;
+}
+
+.file-row {
+    display: flex;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.input-file {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+
+.label-file {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 126%;
+    text-align: center;
+    border: 1px dashed rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+

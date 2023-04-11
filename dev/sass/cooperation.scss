@@ -1,0 +1,43 @@
+.cooperation-first-block, .cooperation-second-block {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cooperation-text {
+    max-width: 525px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 156.5%;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 40px;
+            &::before {
+                content: '•';
+                margin-right: 7px;
+            }
+        }
+    }
+
+    &.text-first-block {
+        margin-right: 57px;
+    }
+
+    &.text-second-block {
+        margin-top: 23px;
+    }
+}
+
+.cooperation-picture {
+    max-width: 555px;
+
+    &.picture-second-block {
+        margin-right: 45px;
+    }
+}
+

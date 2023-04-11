@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    header {
+        .navbar-nav {
+            .nav-item {
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .form-calculation {
+        min-width: 626px;
+    }
+
+    
+    
+}
